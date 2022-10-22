@@ -57,12 +57,16 @@
 
 /*------------MEDIA QUERY FOR SMALL DEVICES ()------------------*/
 @media screen  and (max-width:600px){
+    #portfolio{
+        margin-top: 2rem;
+    }
+
     .portfolio_container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
-        margin: 0 1rem;
-        width: 65%;
+        margin: 0.5rem 0rem 0rem 1.5rem;
+        width: 90%;
         /* float: none; */
     }
     

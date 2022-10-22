@@ -84,8 +84,17 @@ input, textarea{
 
 /*------------MEDIA QUERY FOR SMALL DEVICES (375)------------------*/
 @media screen  and (max-width:600px){
+    .hideOnSmallDevice{
+        display: none;
+    }
+    .container {
+        margin-left: 3rem;
+    }
     .container.contact_container{
         width: var(--container-width-sm);
+    }
+    #contact{
+        margin-top: 15rem;
     }
  }
 

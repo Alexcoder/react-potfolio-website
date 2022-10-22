@@ -112,12 +112,11 @@ section h5{
 
 /*------------MEDIA QUERY FOR SMALL DEVICES ()------------------*/
 @media screen  and (max-width:600px){
-    /* section{
-        height: fit-content;
-        
-    } */
+    #about{
+        margin-top: -20rem;
+    }
  .about_me{ 
-     width: 7%;
+     width: 80%;
      margin: 0 auto 1rem;
      text-align:center;
  }
@@ -125,8 +124,7 @@ section h5{
  .about_cards{
      grid-template-columns: 1fr 1fr ;
      gap: 1rem;
-     margin-left: 3rem;
-     /* margin-right: 0rem; */
+     margin: 0rem 0rem 0rem -2rem;
  }
 
  .about_content{

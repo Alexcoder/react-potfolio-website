@@ -5,7 +5,7 @@ import {AiOutlineGithub} from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='smallDeviceHeightReduce'>
         <a href='#home' className='footer_logo'>ALEX</a>
 
         <ul className='permalinks'>
