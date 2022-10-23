@@ -64,14 +64,13 @@
 
 
 /*------------MEDIA QUERY FOR SMALL DEVICES ()------------------*/
-@media screen  and (max-width:600px){
+@media screen  and (max-width:620px){
+    #experience{
+        margin-top:12rem;
+     }
  .experience_container{ 
     gap: 1rem;
  }
- #experience{
-    margin-top:9rem;
- }
-
  .experience_container > div{
      width: 100%;
      padding: 2rem 1rem;
@@ -80,25 +79,25 @@
 
 
 /*------------MEDIA QUERY FOR SMALL DEVICES (375)------------------*/
-@media screen  and (max-width:375px){
-    .about_me{ 
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
-   
+@media screen  and (max-width:420px){
+
+    #experience{
+        margin-top: 12rem;
+     }
+     .experience_container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+        margin-left: -1rem;
+    }   
     .about_cards{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
-        margin-left: 4rem;
+        margin-left: -2rem;
     }
-   
     .about_content{
         text-align: center;
     }
    
-    .about_content p{
-        margin: 1.5rem 0;
-   }
    }
     
 

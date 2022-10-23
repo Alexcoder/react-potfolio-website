@@ -140,16 +140,19 @@ section h5{
 
 
 /*------------MEDIA QUERY FOR SMALL DEVICES (375)------------------*/
-@media screen  and (max-width:375px){
+@media screen  and (max-width:420px){
     .about_me{ 
-        width: 65%;
-        margin: 0 auto 3rem;
+        width: 70%;
+        height: 120%;
+    }
+    .about_me_image{
+        margin: 0rem 3rem 0rem -4rem;
     }
    
     .about_cards{
         grid-template-columns: 1fr;
         gap: 1rem;
-        margin-left: 4rem;
+        margin-top: 4rem;
     }
    
     .about_content{

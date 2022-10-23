@@ -34,11 +34,10 @@ const About = () => {
               </article>
            </div>
           
-          
            <p>
-             Full stack well developer with extensive knowledge in <br/>
-             React.js, Node.js, Express.js and MongoDB. <br/>
-             with hands-on-project experience.
+             Full stack well developer with extensive knowledge and <br/>
+             hands-on-project experience in
+             React.js, Node.js, Express.js and MongoDB <br/>
            </p>
             <a href='#contact' className='btn btn-primary'>Let's Talk</a>
 
