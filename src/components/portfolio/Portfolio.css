@@ -55,10 +55,10 @@
     
 }
 
-/*------------MEDIA QUERY FOR SMALL DEVICES ()------------------*/
-@media screen  and (max-width:600px){
+/*------------MEDIA QUERY FOR SMALL DEVICES (620px)------------------*/
+@media screen  and (max-width:620px){
     #portfolio{
-        margin-top: 2rem;
+        margin-top: 5rem;
     }
 
     .portfolio_container{
@@ -67,6 +67,22 @@
         gap: 1rem;
         margin: 0.5rem 0rem 0rem 1.5rem;
         width: 90%;
+        /* float: none; */
+    }
+}
+   
+    /*------------MEDIA QUERY FOR SMALL DEVICES (420px)------------------*/
+@media screen  and (max-width:420px){
+    #portfolio{
+        margin-top: 5rem;
+    }
+
+    .portfolio_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin: 0.5rem 2rem 0rem -2rem;
+        width: 80%;
         /* float: none; */
     }
     

@@ -149,7 +149,6 @@ section h5{
    
     .about_cards{
         grid-template-columns: 1fr;
-        gap: 0.5rem;
         margin-top: 4rem;
         width: 10%;
     }
