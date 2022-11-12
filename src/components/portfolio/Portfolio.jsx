@@ -1,48 +1,24 @@
 import React from 'react';
 import './Portfolio.css'
 import FIELDCEMENTING from '../../assets/FieldCementingPic.PNG'
-import IMG1 from '../../assets/FieldCementingPic.PNG'
-// import QUIZ from '../../assets/quiz.svg'
-import IMG4 from '../../assets/FieldCementingPic.PNG'
-// import IMG6 from '../../assets/FieldCementingPic.PNG'
+import QUIZ from '../../assets/quiz.svg'
 
 
 const data = [
   {
-    id:3,
+    id:1,
     image:FIELDCEMENTING,
     title: 'Field WellBore Cementing App',
     github: 'https://github.com/Alexcoder/mobile-app',
     demo:'https://cementing-app.netlify.app/'
   },
-  // {
-  //   id:2,
-  //   image:QUIZ,
-  //   title: 'Quiz App',
-  //   github: 'https://github.com',
-  //   demo:'https://github.com'
-  // },
   {
-    id:1,
-    image:IMG1,
-    title: 'Expense Tracker Powered By Speechly',
-    github: 'https://github.com/Alexcoder/Expense-Tracker-With-Speechly',
-    demo:'https://github.com'
+    id:2,
+    image:QUIZ,
+    title: 'Inventory-check app',
+    github: 'https://github.com/Alexcoder/inventory-client.git',
+    demo:'https://inventory-check.netlify.app'
   },
-  {
-    id:4,
-    image:IMG4,
-    title: 'Memories App',
-    github: 'https://github.com/Alexcoder/SocialMedia',
-    demo:'https://github.com'
-  },
-  // {
-  //   id:6,
-  //   image:IMG6,
-  //   title: 'Booking App',
-  //   github: 'https://github.com',
-  //   demo:'https://github.com'
-  // },
 ]
 
 
@@ -67,7 +43,6 @@ const data = [
                   <a href={demo} className="btn">Live Demo</a>
                   </div>
               </article>
-        
               )
             })
           }

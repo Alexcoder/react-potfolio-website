@@ -54,7 +54,7 @@ const Contact = () => {
               </article>
             {/* END */}
            </div>
-            <form ref={form} onSubmit={sendEmail} className="hideOnSmallDevice">
+            <form ref={form} onSubmit={sendEmail} className="submitForm">
               <input type="text" name='name' placeholder='Your Full Name' required/>
               <input type="email" name='email' placeholder='Your email' required/>
               <textarea name='message' rows='7' placeholder='Your Message' required></textarea>

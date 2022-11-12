@@ -19,7 +19,7 @@ const Header = () => {
              <img src={MAINPIC}  alt='me' className='now'/>
           </div>
  */}
-          <h1  style={{fontSize:"3.5rem", color:"gold"}}>FULL STACK <br/> WEB DEVELOPER</h1>
+          <h1 className="description" >FULL STACK <br/> WEB DEVELOPER</h1>
           <a href='#contact' className='scroll_down'>Scroll Down</a>
        </div>
    </header>

@@ -1,11 +1,15 @@
-header{
+header {
     height: 100vh;
-    padding-top: 6.3rem;
+    padding-top: 4rem;
     overflow: hidden;
 }
 
+.description {
+    font-size: 3.5rem;
+    color: gold;
+}
 
-.header_container{
+.header_container {
     text-align: center;
     height: 100%;
     position: relative;
@@ -13,7 +17,7 @@ header{
 
 /*----------- CTA -------------------------------*/
 
-.cta{
+.cta {
     margin: 2.5rem;
     display: flex;
     gap: 1.2rem;
@@ -21,7 +25,7 @@ header{
 }
 
 /*---------------------- HEADER SOCIALS-------------------------------*/
-.header_socials{
+.header_socials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,28 +35,28 @@ header{
     bottom: 3rem;
 }
 
-.header_socials::after{
-    content: "" ;
+.header_socials::after {
+    content: "";
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
 }
 
 /*---------------------- ME-------------------------------*/
-.me img{
-   background: linear-gradient(var(--color-primary), transparent);
-   width: 22rem;
-   height: 22rem;
-   position: absolute;
-   left: calc(50% - 11rem);
-   transform: translate(-50%);
-   margin-top: 1rem;
-   border-radius: 12rem 12rem 0 0;
-   overflow: hidden;
+.me img {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 22rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    transform: translate(-50%);
+    margin-top: 1rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
 }
 
 /*----------------------SCROLL DOWN-------------------------------*/
-.scroll_down{
+.scroll_down {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
@@ -63,24 +67,32 @@ header{
 
 
 /*------------MEDIA QUERY FOR MEDIUM DEVICES (TABLET)------------------*/
-@media screen  and (max-width:1024px){
-      .header{
-         height: 68vh;
+@media screen and (max-width:1024px) {
+    .header {
+        height: 68vh;
 
-      }
+    }
+    .description {
+        font-size: 3.5rem;
+        color: gold;
+    }
+    
 }
 
 
 /*------------MEDIA QUERY FOR SMALL DEVICES ()------------------*/
-@media screen  and (max-width:600px){
-   .header{  height: 20vh;
-   }
+@media screen and (max-width:600px) {
+    .header {
+        height: 20vh;
+    }
+    .description {
+        font-size: 2.2rem;
+        color: gold;
+    }
+    
 
-   .header_socials, .scroll_down{
-       display: none;
-   }
+    .header_socials,
+    .scroll_down {
+        display: none;
+    }
 }
-
-
-
-

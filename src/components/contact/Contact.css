@@ -6,9 +6,9 @@
 }
 
 .contact_options{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+    display: grid;
+    grid-template-columns: 100% 100% 100%; 
+    gap: 2rem;
 }
 
 .contact_option{
@@ -38,6 +38,9 @@
 
 h5{
     color: var(--color-light);
+}
+.submitForm{
+    display: none
 }
 
 /* --------------------------FORM-------------------------------- */
@@ -84,7 +87,7 @@ input, textarea{
 
 /*------------MEDIA QUERY FOR SMALL DEVICES (600px)------------------*/
 @media screen  and (max-width:600px){
-    .hideOnSmallDevice{
+    .submitForm{
         display: none;
     }
     .container {
@@ -101,10 +104,10 @@ input, textarea{
 /*------------MEDIA QUERY FOR SMALL DEVICES (420px)------------------*/
 @media screen  and (max-width:420px){
     #contact{
-        margin-top: 20rem;
+        margin-top: 12rem;
         margin-bottom: 4rem;
     }
-    .hideOnSmallDevice{
+    .submitForm{
         display: none;
     }
     .container {
@@ -113,6 +116,10 @@ input, textarea{
     .container.contact_container{
         width: var(--container-width-sm);
     }
+    .contact_options{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    
     .contact_option{
         width: 85%;
     }

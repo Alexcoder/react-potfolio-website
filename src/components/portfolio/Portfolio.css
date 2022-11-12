@@ -1,13 +1,10 @@
 .portfolio_container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
     padding-top: -2rem;
 }
 
- /* section{
-    margin-bottom: 3rem;
-}  */
 
 .portfolio_item{
     background: var(--color-bg-variant);
@@ -25,7 +22,7 @@
 .portfolio_item_image{
     border-radius: 1.5rem;
     overflow: hidden;
-    height: 15vh;
+    height: 30vh;
 }
 
 .portfolio_item h3{
@@ -67,7 +64,6 @@
         gap: 1rem;
         margin: 0.5rem 0rem 0rem 1.5rem;
         width: 90%;
-        /* float: none; */
     }
 }
    
@@ -83,7 +79,6 @@
         gap: 1rem;
         margin: 0.5rem 2rem 0rem -2rem;
         width: 80%;
-        /* float: none; */
     }
     
 
