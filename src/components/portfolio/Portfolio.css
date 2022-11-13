@@ -1,4 +1,4 @@
-.portfolio_container{
+.portfolio_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
@@ -6,7 +6,7 @@
 }
 
 
-.portfolio_item{
+.portfolio_item {
     background: var(--color-bg-variant);
     padding: 1rem;
     border-radius: 2rem;
@@ -14,51 +14,49 @@
     transition: var(--transition);
 }
 
-.portfolio_item:hover{
+.portfolio_item:hover {
     background-color: var(--color-primary-variant);
     background-color: transparent;
 }
 
-.portfolio_item_image{
+.portfolio_item_image {
     border-radius: 1.5rem;
     overflow: hidden;
     height: 30vh;
 }
 
-.portfolio_item h3{
+.portfolio_item h3 {
     margin: 1.5rem 0 1.5rem;
 }
 
-.portfolio_item_cta{
+.portfolio_item_cta {
     display: flex;
     gap: 1rem;
     margin-bottom: 0.2rem;
-    /* margin-left: 2rem; */
 }
 
 /*------------MEDIA QUERY FOR MEDIUM DEVICES (TABLET)------------------*/
-@media screen  and (max-width:1024px){
-    .portfolio_container{
+@media screen and (max-width:1024px) {
+    .portfolio_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1.2rem;
-        /* margin-top: -3rem; */
     }
 
-    .container{
+    .container {
         margin-top: 4rem;
         gap: 2rem;
     }
-    
+
 }
 
 /*------------MEDIA QUERY FOR SMALL DEVICES (620px)------------------*/
-@media screen  and (max-width:620px){
-    #portfolio{
+@media screen and (max-width:620px) {
+    #portfolio {
         margin-top: 5rem;
     }
 
-    .portfolio_container{
+    .portfolio_container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
@@ -66,21 +64,20 @@
         width: 90%;
     }
 }
-   
-    /*------------MEDIA QUERY FOR SMALL DEVICES (420px)------------------*/
-@media screen  and (max-width:420px){
-    #portfolio{
+
+/*------------MEDIA QUERY FOR SMALL DEVICES (420px)------------------*/
+@media screen and (max-width:420px) {
+    #portfolio {
         margin-top: 5rem;
     }
 
-    .portfolio_container{
+    .portfolio_container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
         margin: 0.5rem 2rem 0rem -2rem;
         width: 80%;
     }
-    
+
 
 }
-
