@@ -112,7 +112,7 @@ section h5{
 /*------------MEDIA QUERY FOR SMALL DEVICES ()------------------*/
 @media screen  and (max-width:600px){
     #about{
-        margin-top: -5rem;
+        margin-top: -10rem;
     }
  .about_me{ 
      width: 80%;
