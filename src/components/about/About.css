@@ -37,7 +37,7 @@ section h5{
 
 .about_cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 
@@ -85,7 +85,7 @@ section h5{
 @media screen  and (max-width:1024px){
     .about_container{
         grid-template-columns: 1fr;
-        gap: 0;
+        gap: 2;
     }
 
     .about_me{
@@ -98,12 +98,16 @@ section h5{
     .about_content p{
         margin: 2rem 0 1.5rem;
     }
+    .about_card{
+        padding: 2rem;
+        width: 20rem;
+    }
+    
 
     .about_card h5{
         font-size: 0.95rem;
         margin: 1.5rem;
         text-align: center;
-        /* margin-top: 10px ; */
     }
     
 }
@@ -112,7 +116,7 @@ section h5{
 /*------------MEDIA QUERY FOR SMALL DEVICES ()------------------*/
 @media screen  and (max-width:600px){
     #about{
-        margin-top: -10rem;
+        margin-top: -7rem;
     }
  .about_me{ 
      width: 80%;
@@ -163,6 +167,30 @@ section h5{
     .about_content p{
         margin: 1.5rem 0;
    }
+   }
+
+/*------------MEDIA QUERY FOR SMALL DEVICES (376px)------------------*/
+@media screen  and (max-width:376px){
+    .about_me{ 
+        width: 70%;
+        height: 120%;
+        margin: 0rem 0rem 0rem 1.5rem;
+    }
+   
+    .about_cards{
+        grid-template-columns: 1fr;
+        margin-top: 4rem;
+        width: 10%;
+    }
+    .about_content p{
+        margin: 2rem 2rem 1.5rem 0rem;
+    }
+
+   
+    .about_card{
+        width: 84%;
+    }
+   
    }
     
 

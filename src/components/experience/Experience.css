@@ -101,6 +101,21 @@
    }
     
 
+/*------------MEDIA QUERY FOR SMALL DEVICES (376)------------------*/
+@media screen  and (max-width:376px){
+
+    #experience{
+        margin-top: 25rem;
+     }
+     .experience_container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+        margin-left: -1rem;
+    }   
+   
+   }
+    
+
 
 
 

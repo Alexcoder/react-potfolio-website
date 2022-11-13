@@ -69,15 +69,15 @@ input, textarea{
         gap: 1.8rem;
     }
 
-    /* .contact_option{
-        height: 18rem;
-    } */
     .contact_option h5{
         padding: 0rem;
         margin-top: 5rem;
-        /* margin-top: -3rem; */
         display:block;
     }
+    .contact_options{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
     
     section{
         margin-top: -15rem;
@@ -122,6 +122,14 @@ input, textarea{
     
     .contact_option{
         width: 85%;
+    }
+ }
+
+/*------------MEDIA QUERY FOR SMALL DEVICES (376px)------------------*/
+@media screen  and (max-width:376px){
+    #contact{
+        margin-top: 18rem;
+        margin-bottom: 4rem;
     }
  }
 
