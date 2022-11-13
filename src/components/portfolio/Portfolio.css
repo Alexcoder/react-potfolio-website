@@ -16,7 +16,10 @@
 
 .portfolio_item:hover {
     background-color: var(--color-primary-variant);
-    background-color: transparent;
+    /* background-color: transparent; */
+    /* background-color: black; */
+    background: linear-gradient(to bottom right, blue, gold);
+    border: 2px solid
 }
 
 .portfolio_item_image {

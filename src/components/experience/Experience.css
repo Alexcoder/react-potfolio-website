@@ -13,7 +13,10 @@
 }
 
 .experience_container > div:hover{
-    background: transparent;
+    /* background: transparent; */
+    background: linear-gradient(to bottom right, blue, gold);
+    border: 2px solid;
+
     border-color: var(--color-primary-variant);
     cursor: default;
 }

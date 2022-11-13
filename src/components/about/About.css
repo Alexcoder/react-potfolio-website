@@ -52,7 +52,10 @@ section h5{
 }
 
 .about_card:hover{
-    background: transparent;
+    /* background: transparent; */
+    background: linear-gradient(to bottom right, blue, gold);
+    border: 2px solid;
+
     border-color: var(--color-primary-variant);
     cursor: default;
 }

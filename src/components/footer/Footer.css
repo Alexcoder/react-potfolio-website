@@ -47,6 +47,7 @@ footer a{
 
 .footer_socials a:hover{
     background: transparent;
+    /* background: black; */
     color: var(--color-bg);
     border-color: var(--color-bg);
 }

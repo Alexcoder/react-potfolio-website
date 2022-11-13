@@ -21,7 +21,10 @@
 }
 
 .contact_option:hover{
-    background: transparent;
+    /* background: transparent; */
+    /* background: black; */
+    background: linear-gradient(to bottom right, blue, gold);
+    border: 2px solid;
     border-color: var(--color-primary-variant);
 }
 
