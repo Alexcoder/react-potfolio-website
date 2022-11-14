@@ -9,14 +9,14 @@ const data = [
     id:1,
     image:FIELDCEMENTING,
     title: 'Field WellBore Cementing App',
-    github: 'https://github.com/Alexcoder/mobile-app',
+    github: 'https://github.com/Alexcoder?tab=repositories',
     demo:'https://cementing-app.netlify.app/'
   },
   {
     id:2,
     image:QUIZ,
     title: 'Inventory-check app',
-    github: 'https://github.com/Alexcoder/inventory-client.git',
+    github: 'https://github.com/Alexcoder?tab=repositories',
     demo:'https://inventory-check.netlify.app'
   },
 ]
