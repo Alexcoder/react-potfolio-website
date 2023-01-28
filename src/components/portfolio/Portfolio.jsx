@@ -1,23 +1,31 @@
 import React from 'react';
-import './Portfolio.css'
-import FIELDCEMENTING from '../../assets/FieldCementingPic.PNG'
-import QUIZ from '../../assets/quiz.svg'
+import './Portfolio.css';
+import FIELDCEMENTING from '../../assets/FieldCementingPic.PNG';
+import QUIZ from '../../assets/quiz.svg';
+import LOGISTICS from '../../assets/logistics.PNG';
 
 
 const data = [
   {
     id:1,
     image:FIELDCEMENTING,
-    title: 'Field WellBore Cementing App',
+    title: 'Field WellBore Cementing',
     github: 'https://github.com/Alexcoder?tab=repositories',
     demo:'https://cementing-app.netlify.app/'
   },
   {
     id:2,
     image:QUIZ,
-    title: 'Inventory-check app',
+    title: 'Inventory-check',
     github: 'https://github.com/Alexcoder?tab=repositories',
     demo:'https://inventory-check.netlify.app'
+  },
+  {
+    id:3,
+    image:LOGISTICS,
+    title: 'Booking App',
+    github: 'https://github.com/Alexcoder?tab=repositories',
+    demo:'https://dinologistics.netlify.app'
   },
 ]
 

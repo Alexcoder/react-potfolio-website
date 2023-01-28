@@ -4,6 +4,9 @@
   grid-template-columns: 30% 58%; /* 30%left 58% right*/
   gap: 2rem;
 }
+#contact{
+    margin-top: 22rem;
+}
 
 .contact_options{
     display: grid;
@@ -67,6 +70,10 @@ input, textarea{
 
 /*------------MEDIA QUERY FOR LARGE DEVICES (1024px)------------------*/
 @media screen  and (max-width:1024px){
+    #contact{
+        margin-top: 25rem;
+    }
+    
     .container.contact_container{
         grid-template-columns: 1fr;
         gap: 1.8rem;
@@ -90,6 +97,10 @@ input, textarea{
 
 /*------------MEDIA QUERY FOR SMALL DEVICES (600px)------------------*/
 @media screen  and (max-width:600px){
+    #contact{
+        margin-top: 39rem;
+    }
+
     .submitForm{
         display: none;
     }
@@ -107,7 +118,7 @@ input, textarea{
 /*------------MEDIA QUERY FOR SMALL DEVICES (420px)------------------*/
 @media screen  and (max-width:420px){
     #contact{
-        margin-top: 12rem;
+        margin-top: 39rem;
         margin-bottom: 4rem;
     }
     .submitForm{
